@@ -1,0 +1,79 @@
+.sitebody-container {
+  /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+  background-image: url("https://th.bing.com/th/id/R72d56e943d4e7852bdd0ef9881db1631?rik=%2fsUxJeJUoZYhag&riu=http%3a%2f%2fclipart-library.com%2fimg1%2f695524.jpg&ehk=aL4u%2fq2OjP%2bQmRSLDhI8cx%2bcY4TazKBfegFUD%2bw%2b4y4%3d&risl=&pid=ImgRaw");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+
+.sitebody-container > h1 {
+  color: whitesmoke;
+  font-size: 100px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-top: -5px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.sitebody-container > p {
+  color: whitesmoke;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -100px;
+  border: 2px solid gray;
+  padding: 10px;
+  background-color: black;
+}
+
+.sitebody-btns .btns {
+  size: 400px;
+  border: 2px solid gray;
+  padding: 10px;
+  background-color: black;
+}
+
+.btn {
+  background-color: grey;
+}
+
+@media screen and (max-width: 950px) {
+  .sitebody-container > h1 {
+    color: whitesmoke;
+    font-size: 60px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    margin-top: -150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sitebody-container > h1 {
+    color: whitesmoke;
+    font-size: 60px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    margin-top: -100px;
+  }
+  .sitebody-container > p {
+    font-size: 25px;
+  }
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+  .btn {
+    width: 100%;
+    border: 2px solid gray;
+    padding: 10px;
+    background-color: black;
+  }
+}
